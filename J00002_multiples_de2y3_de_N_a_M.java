@@ -24,7 +24,7 @@ public class J00002_multiples_de2y3_de_N_a_M {
         
         System.out.println("enter the value b");
         b = keyboard.nextInt();
-        
+       
         for ( int i = a; i < b; i++){
             if ( i % 2 == 0 ){
                 countMult2++;
