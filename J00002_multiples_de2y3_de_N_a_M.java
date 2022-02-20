@@ -6,7 +6,7 @@ package DAM_CORNELLA;
 
 import java.util.Scanner;
 
-public class A_UF1_P2_Repetitius_ex1_multiples_2_de1a100 {
+public class J00002_multiples_de2y3_de_N_a_M {
 //Contar los numeros que son multiples de 2 o de 3 entre 2 valores que introduzca el usuario
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
