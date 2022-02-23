@@ -6,7 +6,7 @@ package DAM_CORNELLA;
 
 import java.util.Scanner;
 
-public class J00007_nom_dosNums_producte {
+public class J00007_nombre_dosNums_producto {
     public static void main(String[] args) {
         Scanner keyboardString = new Scanner(System.in);
         Scanner keyboardInt = new Scanner(System.in);
