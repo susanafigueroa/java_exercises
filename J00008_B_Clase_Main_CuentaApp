@@ -1,0 +1,31 @@
+package ejercicio1;
+
+public class CuentaApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cuenta c1 = new Cuenta("Susana"); //creo el objeto solo con el titular
+		Cuenta c2 = new Cuenta("YoMisma", 2000); //creo el objeto con el titular y la cuenta
+		
+		//Muestro información de las cuentas:
+		System.out.println(c1);
+		System.out.println(c2);
+		
+		//Ingresar dinero en las cuentas:
+		c1.ingresar(1000);
+		c2.ingresar(5000);
+		
+		//Muestro información de las cuentas:
+		System.out.println(c1);
+		System.out.println(c2);
+		
+		//Retirar dinero de las cuentas:
+		c1.retirar(500);
+		c2.retirar(10000);
+		
+		//Muestro información de las cuentas:
+		System.out.println(c1);
+		System.out.println(c2);		
+	}
+}
